@@ -1,7 +1,245 @@
-/*This is the general styling section */
+/* This is the general styling section */
 
 body {
+  display: block;
   font-family: Helvetica;
   font-size: 18px;
   line-height: 1.4;
+  border: 2px solid black;
 }
+
+/* This is the header styling section */
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  background-image: url(../images/glasses-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  padding-left: 11rem;
+  padding-right: 11rem;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  background-color: cadetblue;
+  margin-top: 1rem;
+}
+
+.company-logo {
+  display: flex;
+  flex-direction: row;
+  margin-right: 7.6rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+.logo span {
+  font-size: 1rem;
+  margin-right: 5rem;
+  color: white;
+}
+
+.company-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 7.6rem;
+}
+
+.navigation ul  {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navigation a {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10rem;
+  padding-right: 9rem;
+}
+
+.slogan p {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  background-color: white;
+  padding: 1.5rem 5rem;
+}
+
+/* This is the servies styling section */
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 14rem;
+  padding-top: 3rem;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.exams {
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  width: auto;
+  margin-right: 6rem;
+}
+
+.exam {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.exams img {
+  width: 3.5rem;
+  justify-content: center;
+  margin-left: 2.5rem;
+}
+
+.fittings {
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  width: auto;
+  margin-right: 6rem;
+}
+
+.fitting {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2.75rem;
+}
+
+.fittings img {
+  display: flex;
+  width: 5rem;
+  justify-content: center;
+}
+
+.deliveries {
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  width: auto;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 2.25rem;
+}
+
+.deliveries img {
+  width: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This is the Mission styling section */
+
+.mission {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  max-width: 75%;
+}
+
+.mission span {
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  max-width: 10rem;
+}
+
+.mission p {
+  margin-top: 1rem;
+}
+
+/* This is the phiosophy styling section */
+
+.philosophy {
+  display: flex;
+  flex-direction: column;
+  max-width: 35%;
+  margin-left: 12.5%;
+  margin-right: 5%;
+}
+
+/* This is the appointments styling section */
+
+.appointments {
+  display: flex;
+  flex-direction: column;
+  max-width: 35%;
+}
+
+/* This is the footer styling section */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+  background-color: azure;
+}
+
+
+footer img {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
+  height: 1.5rem;
+}
+
+footer span {
+  color: black;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+
+
+
+
+/* This is the Media Query Section */
+
+/* This is the Media Query for tablets */
+
+@media screen only and (max-width: 1024px) and min-width (470px) {
